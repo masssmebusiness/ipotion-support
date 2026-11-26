@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d18">
+  <meta name="description" content="Official support page for iPOTION by MASS Tools. Find help, troubleshooting tips and contact support.">
+  <title>iPOTION Support | MASS Tools</title>
+  <style>
+    :root{color-scheme:dark;--bg:#100d18;--panel:#1b1626;--gold:#d8b56b;--muted:#b9b0c5;--line:#393044;--purple:#8f68c8}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -15%,#39234f 0,transparent 48%),var(--bg);color:#f7f1fb;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{width:min(900px,calc(100% - 36px));margin:auto}.top{padding:28px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+    .brand{letter-spacing:.18em;font-size:13px;color:var(--gold);font-weight:700}.tag{font-size:12px;color:var(--muted)}
+    header{text-align:center;padding:76px 0 54px} .sigil{width:76px;height:76px;border:1px solid #8f7140;border-radius:24px;display:grid;place-items:center;margin:0 auto 22px;color:var(--gold);font-size:36px;background:linear-gradient(145deg,#33223f,#17111f);box-shadow:0 0 50px #8f68c833}
+    h1{font-size:clamp(42px,8vw,68px);line-height:1.05;letter-spacing:.04em;margin:0;color:var(--gold)}.sub{font-size:19px;color:#e1d8e9;margin:18px 0 8px}.intro{max-width:580px;margin:0 auto;color:var(--muted)}
+    .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;text-decoration:none;padding:12px 20px;border-radius:9px;font-weight:650}.primary{background:var(--gold);color:#17111c}.secondary{border:1px solid #76618e;color:#eee4f8}
+    h2{font-size:23px;color:var(--gold);margin:0 0 18px}.section{padding:26px 0 12px}.faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.item{background:linear-gradient(145deg,#211a2d,#181320);border:1px solid var(--line);border-radius:13px;padding:20px}.item h3{font-size:17px;margin:0 0 8px;color:#f5e8c9}.item p{margin:0;color:var(--muted);font-size:15px}
+    .contact{margin:26px 0 56px;padding:25px;border:1px solid #6e5735;border-radius:14px;background:linear-gradient(120deg,#2b2030,#1b1626)}.contact p{color:var(--muted);margin:0 0 18px}
+    footer{border-top:1px solid var(--line);padding:24px 0 34px;color:#93899d;font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    a:focus-visible{outline:3px solid white;outline-offset:3px}
+    @media(max-width:620px){header{padding:56px 0 42px}.faq{grid-template-columns:1fr}.top{align-items:flex-start;gap:8px;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="top" aria-label="Site header"><div class="brand">MASS TOOLS</div><div class="tag">OFFICIAL iPOTION SUPPORT</div></nav>
+    <header>
+      <div class="sigil" aria-hidden="true">✦</div>
+      <h1>iPOTION</h1>
+      <p class="sub">A little magic, always within reach.</p>
+      <p class="intro">Welcome to the official support page for iPOTION, a potion-themed experience from MASS Tools. Find quick help below or get in touch with the support team.</p>
+      <div class="actions"><a class="btn primary" href="#help">Browse help</a><a class="btn secondary" href="https://github.com/masssmebusiness/ipotion-support/issues/new">Contact support</a></div>
+    </header>
+    <main>
+      <section class="section" id="help">
+        <h2>Help &amp; frequently asked questions</h2>
+        <div class="faq">
+          <article class="item"><h3>The app will not open or respond</h3><p>Close iPOTION and reopen it. If the issue continues, restart your iPhone and check that iOS is up to date.</p></article>
+          <article class="item"><h3>Something does not look or work right</h3><p>Try closing and reopening the app. When reporting the issue, include your iPhone model, iOS version and the steps that led to it.</p></article>
+          <article class="item"><h3>How do I report a bug?</h3><p>Use the Contact support link and describe what happened, what you expected to happen, and whether you can reproduce the issue.</p></article>
+          <article class="item"><h3>Purchases and billing</h3><p>App Store purchases and billing are managed by Apple. For a billing or refund request, use Apple’s official <a href="https://reportaproblem.apple.com/" style="color:var(--gold)">Report a Problem</a> service.</p></article>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Need a hand?</h2>
+        <p>We welcome questions, bug reports and suggestions. Please do not include passwords, payment details or other sensitive information in a support request.</p>
+        <a class="btn primary" href="https://github.com/masssmebusiness/ipotion-support/issues/new">Open a support request</a>
+      </section>
+    </main>
+    <footer><span>© <span id="year">2026</span> MASS Tools. All rights reserved.</span><span>iPOTION Support</span></footer>
+  </div>
+</body>
+</html>
